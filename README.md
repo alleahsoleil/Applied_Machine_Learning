@@ -5,7 +5,6 @@ Hello! My name is Alleah and I am a senior at the college of William and Mary ma
 
 
 
-<https://github.com/alleahsoleil/Applied_Machine_Learning/blob/main/Feb%208th%20Informal%20Response>
+[February 5th Informal Response](../blob/master/main/Informal%20Responses)
 
-
-[I'm a relative reference to a repository file](../blob/master/main/Feb%208th%20Informal%20Response)
+[February 8th Informal Response](../blob/master/main/Feb%208th%20Informal%20Response)
