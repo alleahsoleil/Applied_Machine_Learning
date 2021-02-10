@@ -5,6 +5,6 @@ Hello! My name is Alleah and I am a senior at the college of William and Mary ma
 
 
 
-[February 5th Informal Response](../blob/master/main/Informal%20Responses)
+[February 5th Informal Response](../blob/master/Informal%20Responses)
 
-[February 8th Informal Response](../blob/master/main/Feb%208th%20Informal%20Response)
+[February 8th Informal Response](../blob/main/Feb%208th%20Informal%20Response)
