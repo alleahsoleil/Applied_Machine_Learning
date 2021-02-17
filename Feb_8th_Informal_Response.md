@@ -26,3 +26,5 @@
 ![](Figure_1.png)
 
 ![](histogram_1.png)
+
+![](myplot.png)
