@@ -23,8 +23,5 @@
 •	Produce a plot of your selected image and the accompanying histogram that illustrates the probability of that image being the selected number
 
 
-![](Figure_1.png)
-
-![](histogram_1.png)
 
 ![](myplot.png)
