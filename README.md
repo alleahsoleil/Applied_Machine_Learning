@@ -11,5 +11,7 @@ Hello! My name is Alleah and I am a senior at the college of William and Mary ma
 
 [February 8th Informal Response](https://alleahsoleil.github.io/Applied_Machine_Learning/Feb_8th_Informal_Response.html)
 
+[Feb_21st_Informal_Response](https://alleahsoleil.github.io/Applied_Machine_Learning/Feb_21st_Informal_Response.html)
+
 ## Projects
 
