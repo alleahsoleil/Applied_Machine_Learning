@@ -6,7 +6,7 @@
 
 Original image: 
 
-![]origimg.png
+![](origimg.png)
 
 #### Filter 1: 
 
@@ -14,7 +14,7 @@ Original image:
 filter = [ [0, 1, 0], [1, -4, 1], [0, 1, 0]]
 ```
 
-![]filter1.png
+![](filter1.png)
 
 The first filter appears to highlight horizontal lines, in effect significantly darkening the original image.
 
@@ -24,7 +24,7 @@ The first filter appears to highlight horizontal lines, in effect significantly 
 filter = [ [-1, -2, -1], [0, 0, 0], [1, 2, 1]]
 ```
 
-![]filter2.png
+![](filter2.png)
 
 This second filter appears to highlight vertical lines, causing them to stand out in stark contrast to the darkened background.
 
@@ -34,7 +34,7 @@ This second filter appears to highlight vertical lines, causing them to stand ou
 filter = [ [-1, 0, 1], [-2, 0, 2], [-1, 0, 1]]
 ```
 
-![]filter3.png
+![](filter3.png)
 
 
 The third filter appears to highlight diagonal lines much more clearly than the previous two filters.
@@ -57,7 +57,7 @@ This is useful for computer vision as it allows a model to use certain defining 
 
 #### Original vs. pooled image
 
-![]filter3.png ![]pool1.png
+![](filter3.png) ![](pool1.png)
 
 ### In effect what have you accomplished by applying this filter? Does there seem to be a logic (i.e. maximizing, averaging or minimizing values?) associated with the pooling filter provided in the example exercise (convolutions & pooling)? 
 This filter had the effect of emphasizing the most important values that remained after applying the third filter, making most of the lines appear both thicker and in greater contrast than before. The logic behind the pooling filter is to reduce the overall size of the image by iterating over a 2x2 block of pixels and saving the highest value within this block; this preserves the most important features and points within the image.
