@@ -30,3 +30,31 @@ We may want to include more than one filter if you are trying to highlight diffe
 
 
 ## MSE
+
+### From your 400+ observations of homes for sale, calculate the MSE for the following.
+
+#### The 10 biggest over-predictions
+
+The Mean Squared Error is: 1.3602971425776497e+27
+
+#### The 10 biggest under-predictions
+
+The Mean Squared Error is:  3.8213090147855534e+18
+
+
+#### The 10 most accurate results (use absolute value)
+
+The Mean Squared Error is:  2.5568076474114e+18
+
+#### In which percentile do the 10 most accurate predictions reside? Did your model trend towards over or under predicting home values?
+
+
+#### Which feature appears to be the most significant predictor in the above cases?
+
+
+#### Stretch goal: calculate the MAE and compare with your MSE results
+
+1280706111882.2798
+
+
+
