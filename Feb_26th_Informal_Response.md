@@ -48,13 +48,15 @@ The Mean Squared Error is:  2.5568076474114e+18
 
 #### In which percentile do the 10 most accurate predictions reside? Did your model trend towards over or under predicting home values?
 
+My most accurate predictions resided within the 10-87th percentiles. My model tended to trend very heavily towards over predicitng home values, with several of my most expensive home being within this criteria.
 
 #### Which feature appears to be the most significant predictor in the above cases?
 
+From looking at my data with the most accurate predictions, it would seem that number of bedrooms is the most significant predictor of house prices in this area.
 
 #### Stretch goal: calculate the MAE and compare with your MSE results
 
-1280706111882.2798
+MAE: 1280706111882.2798 
 
 
 
