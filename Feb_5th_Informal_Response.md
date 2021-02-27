@@ -11,7 +11,7 @@ Answer 2: [22.000013]
 
   The answers were different when running the predict function between the first and second attempts. However, after the second attempt, the result remained the same. This could possibly be because the model is becoming more accurate in its estimates, and has solidified the pattern once it reaches a certain number of iterations.
 
-## 3. •	Using the script you produced to predict housing price, take the provided six houses from Mathews, Virginia and train a neural net model that estimates the relationship between them. Based on this model, which of the six homes present a good deal? Which one is the worst deal? Justify your answer.
+## 3. Using the script you produced to predict housing price, take the provided six houses from Mathews, Virginia and train a neural net model that estimates the relationship between them. Based on this model, which of the six homes present a good deal? Which one is the worst deal? Justify your answer.
 
 
 model = tf.keras.Sequential([keras.layers.Dense(units=1,input_shape=[1])])
@@ -25,3 +25,9 @@ ys = np.array([3.99, .97, 3.47, 2.89, 2.5, 2.29],dtype=float)
 model.fit(xs,ys,epochs=500)
 
   From examining the results of the model, the second, third, fourth, and sixth houses present good deals, with the house on Holly Point having the best deal on a 3-bedroom house, saving about $142K off the predicted estimated house value based on the current model. The New Point 5-bedroom, Victorian 4-bedroom, and New Point comfort 3-bedroom houses present only moderate deals, saving about $10K on average off their predicted estimated values. However, the Church 4-bedroom house at $399K ultimately presents the worst deal, with the model estimating its value at only $298K; this makes the house overpriced by over $100,000.
+
+
+
+### Using the updated predictions, determine whether the houses are listed at a fair or unfair deal
+
+From an analysis of the new model, the Church, New Point Comfort, and Moon houses are all bad deals, with the New Point comfort 5-bedroom shifting from being analyzed as a  moderate deal to becoming a bad one. However, the house on Holly Point, the Victorian, and New Point comfort remain good deals, with the New Point comfort taking the lead for best deal on a house.
