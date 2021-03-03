@@ -63,7 +63,7 @@ On the other hand, the worst valued home was a 4502sqft house on New Hope Road w
 ### Top 10 best and worst priced homes on the market in Orlando, FL
 
 
-![](best_price.png)     ![](worst_price.png)
+![](best_price.png) ![](worst_price.png)
 
 
 
