@@ -4,7 +4,7 @@
 #### Using the R script provided, split and sample your DHS persons data and evaluate the AUC - ROC values you produce. 
     - Which "top_model" performed the best (had the largest AUC)? 
 
-![]('top_models.png')
+![](top_models.png)
 
 The model that performed the best was the third slice with a penalty of .000161, and an AUC of .648.
 
@@ -13,7 +13,7 @@ The model that performed the best was the third slice with a penalty of .000161,
 
 
 
-![]('lr_plot.png')
+![](lr_plot.png)
 
     - Provide justification for your selected penalty value? 
     
@@ -25,7 +25,7 @@ However, while I believe that slice 11 was the best selection from this data, I 
 
 Below are the plots of my penalized logistic regression model attempting to predict the five wealth outcomes.
 
-![]('lr_auc.png')
+![](lr_auc.png)
 
     - How effective is your penalized logistic regression model at predicting each of the five wealth outcomes.
 
@@ -43,7 +43,7 @@ From observing the plots, it appears that my model predicts outcomes the best at
 
 Here is my plot of the number of randomly selected predictors, as well as minimal node size for my random forest model:
 
-![]('rf_res.png')
+![](rf_res.png)
 
 
   -  How did your random forest model fare when compared to the penalized logistic regression? 
@@ -55,9 +55,9 @@ While the difference is only minimal, it should be noted that my random forest m
 
   -  Provide your ROC plots and interpret them. Are you able to provide a plot that supports the relative importance of each feature's contribution towards the predictive power of your random forest ensemble model?
 
-![]('rf_auc.png')
+![](rf_auc.png)
 
-![]('last_rf_fit.png')
+![](last_rf_fit.png)
 
 
 Once again, my model does significantly better at predicting the wealth outcomes at either extreme than it does those of a more intermediate level. From observing the plots above, it can be seen that age is the most important relative factor in predicting wealth.
