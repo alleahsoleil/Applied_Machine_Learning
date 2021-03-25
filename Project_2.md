@@ -112,7 +112,7 @@ global_step          |   100.000000
 ## Gradient Boosting Model In Python
 #### Using the python script provided, train a gradient boosting model using decision trees with the tensorflow estimator. Provide evaluative metrics including a measure of accuracy and AUC. 
 
-  ________________    | ____ |
+ |  ________________    | ____ |
 |accuracy              |    0.777855 |
 |accuracy_baseline     |    0.755272 |
 |auc                  |     0.773416 |
