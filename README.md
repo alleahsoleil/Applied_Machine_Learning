@@ -17,3 +17,5 @@ Hello! My name is Alleah and I am a senior at the college of William and Mary ma
 ## Projects
 
 [Project One](https://alleahsoleil.github.io/Applied_Machine_Learning/Project_1.html)
+
+[Project Two](https://alleahsoleil.github.io/Applied_Machine_Learning/Project_2.html)
