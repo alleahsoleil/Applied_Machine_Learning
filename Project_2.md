@@ -35,9 +35,6 @@ From observing the plots, it appears that my model predicts outcomes the best at
 
 
 
-
-
-
 #### Using the R script provided, set up your random forest model and produce the AUC - ROC values for the randomly selected predictors, and the minimal node size, again with wealth as the target.
 
 
@@ -65,12 +62,76 @@ Once again, my model does significantly better at predicting the wealth outcomes
 
 
 
+#### Using the python script provided, train a logistic regression model using the tensorflow estimator API and your DHS data, again with wealth as the target. 
+    
+    
+    
+    Graph of wealth distribution between classes
+    
+   ![](wealth_dist.png)
+    
+    
+    
+    
+    - 
+    - 
+    - Apply the linear classifier to the feature columns and determine the accuracy, AUC and other evaluative metrics towards each of the different wealth outcomes. 
 
 
-#### Using the python script provided, train a logistic regression model using the tensorflow estimator API and your DHS data, again with wealth as the target. Apply the linear classifier to the feature columns and determine the accuracy, AUC and other evaluative metrics towards each of the different wealth outcomes. Then continue with your linear classifier adding the derived feature columns you have selected in order to extend capturing combinations of correlations (instead of learning on single model weights for each outcome). Again produce your ROC curves and interpret the results.
 
-#### Using the python script provided, train a gradient boosting model using decision trees with the tensorflow estimator. Provide evaluative metrics including a measure of accuracy and AUC. Produce the predicted probabilities plot as well as the ROC curve for each wealth outcome and interpret these results.
+accuracy               |   0.777357
+accuracy_baseline       |  0.755272
+auc                    |   0.750641
+auc_precision_recall   |   0.479825
+average_loss           |   0.471020
+label/mean             |   0.244728
+loss                   |   0.471020
+precision              |   0.634740
+prediction/mean       |    0.249362
+recall              |      0.212558
+global_step          |   100.000000
 
+
+
+
+
+
+
+    - Then continue with your linear classifier adding the derived feature columns you have selected in order to extend capturing combinations of correlations (instead of learning on single model weights for each outcome). 
+
+
+    - Again produce your ROC curves and interpret the results.
+
+
+![](log_reg_pp.png)
+
+
+![](roc1.png)
+
+
+
+#### Using the python script provided, train a gradient boosting model using decision trees with the tensorflow estimator. Provide evaluative metrics including a measure of accuracy and AUC. 
+
+
+accuracy              |    0.777855
+accuracy_baseline     |    0.755272
+auc                  |     0.773416
+auc_precision_recall  |    0.510188
+average_loss        |      0.451515
+label/mean       |         0.244728
+loss             |         0.451515
+precision         |        0.623589
+prediction/mean   |        0.244723
+recall            |        0.232808
+global_step       |      100.000000
+
+
+Produce the predicted probabilities plot as well as the ROC curve for each wealth outcome and interpret these results.
+
+![](boostedtree_pp)
+
+
+![](roc2.png)
 
 
 #### Analyze all four models. According to the evaluation metrics, which model produced the best results? Were there any discrepancies among the five wealth outcomes from your DHS survey dataset?
