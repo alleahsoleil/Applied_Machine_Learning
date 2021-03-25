@@ -1,5 +1,5 @@
 
-## Regression Using R
+## Logistic Regression In R
 
 #### Using the R script provided, split and sample your DHS persons data and evaluate the AUC - ROC values you produce. 
     - Which "top_model" performed the best (had the largest AUC)? 
@@ -34,7 +34,7 @@ From observing the plots, it appears that my model predicts outcomes the best at
 
 
 
-
+## Random Forest In R
 #### Using the R script provided, set up your random forest model and produce the AUC - ROC values for the randomly selected predictors, and the minimal node size, again with wealth as the target.
 
 
@@ -60,7 +60,7 @@ While the difference is only minimal, it should be noted that my random forest m
 Once again, my model does significantly better at predicting the wealth outcomes at either extreme than it does those of a more intermediate level. From observing the plots above, it can be seen that age is the most important relative factor in predicting wealth.
 
 
-
+## Logistic Regression In Python (tensorflow)
 
 #### Using the python script provided, train a logistic regression model using the tensorflow estimator API and your DHS data, again with wealth as the target. 
     
@@ -109,7 +109,7 @@ global_step          |   100.000000
 ![](roc1.png)
 
 
-
+## Gradient Boosting Model In Python
 #### Using the python script provided, train a gradient boosting model using decision trees with the tensorflow estimator. Provide evaluative metrics including a measure of accuracy and AUC. 
 
 
