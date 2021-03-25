@@ -77,19 +77,19 @@ Once again, my model does significantly better at predicting the wealth outcomes
     - 
     - Apply the linear classifier to the feature columns and determine the accuracy, AUC and other evaluative metrics towards each of the different wealth outcomes. 
 
-
-
-accuracy               |   0.777357
-accuracy_baseline       |  0.755272
-auc                    |   0.750641
-auc_precision_recall   |   0.479825
-average_loss           |   0.471020
-label/mean             |   0.244728
-loss                   |   0.471020
-precision              |   0.634740
-prediction/mean       |    0.249362
-recall              |      0.212558
-global_step          |   100.000000
+| metric   | score |
+| ----------- | ----------- |
+| accuracy      |   0.777357 |
+| accuracy_baseline   |  0.755272 |
+| auc                  |   0.750641 |
+| auc_precision_recall   |   0.479825 |
+| average_loss           |   0.471020 |
+| label/mean             |   0.244728 |
+| loss                   |   0.471020 |
+| precision              |   0.634740 |
+| prediction/mean       |    0.249362 |
+| recall              |      0.212558 |
+| global_step          |   100.000000 |
 
 
 
@@ -112,18 +112,22 @@ global_step          |   100.000000
 ## Gradient Boosting Model In Python
 #### Using the python script provided, train a gradient boosting model using decision trees with the tensorflow estimator. Provide evaluative metrics including a measure of accuracy and AUC. 
 
- |  ________________    | ____ |
-|accuracy              |    0.777855 |
-|accuracy_baseline     |    0.755272 |
-|auc                  |     0.773416 |
-|auc_precision_recall  |    0.510188 |
-|average_loss        |      0.451515 |
-|label/mean       |         0.244728 |
-|loss             |         0.451515 |
-|precision         |        0.623589 |
-|prediction/mean   |        0.244723 |
-|recall            |        0.232808 |
-|global_step       |      100.000000 |
+
+
+
+| metric   | score |
+| ----------- | ----------- |
+| accuracy    |    0.777855 |
+| accuracy_baseline |    0.755272 |
+| auc                |     0.773416 |
+| auc_precision_recall  |    0.510188 |
+| average_loss |      0.451515 |
+| label/mean |         0.244728 |
+| loss |         0.451515 |
+| precision |        0.623589 |
+| prediction/mean |        0.244723 |
+| recall |        0.232808 |
+| global_step |      100.000000 |
 
 
 Produce the predicted probabilities plot as well as the ROC curve for each wealth outcome and interpret these results.
