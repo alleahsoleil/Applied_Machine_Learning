@@ -21,7 +21,7 @@ To begin my analysis, I first used a linear regression model using the sum of va
 
 #### Single Large Subregion- Matrouh
 
-For my single large subregion, my linear regression model predicted a poulation of 492534.9, and had a real population total of 492481.6, with an absolute difference of 897176. Plots for the population sums and difference in sums are shown below.
+For my single large subregion, my linear regression model predicted a poulation (gridcell count) of 492534.9, and had a real population total of 492481.6, with an absolute difference of 897176. Plots for the population sums and difference in sums are shown below.
 
 ![](popsum_biglr1.png)
 
@@ -67,11 +67,13 @@ It's interesting to note the differences in the variable importance plots for ea
 ###### Population Sum 
 ![](popsum_bigrf.png)
 
-###### Random Forest
+###### Random Forest Plot
 
 ![](rf_big1.png)
 
 Looking at these plots, it appears that the random forest model performed almost identically to the linear regression, with only a tiny section in the population sum plot that has a noticable change. Arguably, the random forest did not perform any better on this subregion than did the linear regression.
+
+However, this isn't necessarily supported when analyzing the gridcell counts predicted by this model, with it having a predicted population of 509440.9 and an actual population of 492481.6, and an absolute difference of 897,176. From this, it would appear that the difference in sums is identical to that of the linear regression model, although this model appears to have over-predicted more than the previous model.
 
 ##### Five smaller subregions- Ad Daqahliyah, Al Buhayrah, Al Garbiyah, Kafr ash Shaykh, and Al Minufiyah
 
@@ -88,22 +90,31 @@ Looking at these plots, it appears that the random forest model performed almost
 
 Upon first glance, it would appear that we have a similar case to the plots of the larger subregion, and have an identical performance for both the linear regression and random forest models; however, upon closer inspection, there are some small, but distinct, changes in coloration and intensity that begs the question of which model performed better. 
 
-This random forest model predicted a population (gridcell count) of 25,386,131, and had an actual population of 25,376,857, with an absolute difference of 17,997,711. From comparing this to the linear regression model, the random forest appears to have performed slightly worse. However, to verify this discovery, I will validate the models using the evaluation metrics of mean squared error and r-squared.
+This random forest model predicted a population of 25,386,131, and had an actual population of 25,376,857, with an absolute difference of 17,997,711. From comparing this to the linear regression model, the random forest appears to have performed slightly worse. However, to verify this discovery, I will validate the models using the evaluation metrics of mean squared error and r-squared.
 
-####MSE,RSQ, MAE
+#### MSE & RSQ
 
+##### Single Subregion
 
+Random Forest:
+MSE: 6.112794e+12
+R^2: .4492
 
+Linear regression:
+MSE: 199,599,441,517
+R^2: .4301
 
+##### Five smaller subregions
 
+Random Forest:
+MSE: 4,416,115,642
+R^2:.4432
 
-## Validate the two models using different methods presented in this class
-## Write a report assessing the two approaches and which of the two models was more accurate
-## Be sure to account for spatial variation throughout your selected location and provide substantive explanations for why those variations occurred
-
+Linear Regression:
+MSE: 6.262341e+14
+R^2:137.87
 
 ## Discussion
 
-Overall, it appears that 
-
+From observing the 
 
