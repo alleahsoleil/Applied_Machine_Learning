@@ -116,5 +116,6 @@ R^2:137.87
 
 ## Discussion
 
-From observing the 
+From observing the results of the validation across all four models, it appears that the random forest model performed slightly better than the linear regression model when taken all together. For the five smaller subregions, the R^2 value was .4432, meaning that 44.3% of the variance in the data can be explained by our present variables. The R^2 value for the random forest on the larger region was slightly higher, with our variables explaining about 44.9% of the variance of the data. I also believe than given the substaintail difference in sizes of the regions chosen, the larger subregion did a better job at predicting populations; however none of the models predict that well, and when taking a look at our predictor variables, this discrepency can be explained. 
+For example, the night time lights predictor variable may have picked up on locations that contain buildings such as factories that are used for other purposes, but are not necessarily where people live. In additon, both models struggled more when predicting populations within big cities; this is likely due to the fact that in these more urban areas, people are more densely clustered together, and these types of geological factors are not taken into account when building these models. 
 
