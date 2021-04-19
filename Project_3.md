@@ -18,7 +18,7 @@ For this project, I continued on with my exploration of data from Egypt. However
 ### Linear Regression
 
 
-##### Single Large Subregion- Matrouh
+#### Single Large Subregion- Matrouh
 
 To begin my analysis, I first used a linear regression model using the sum of various factors such as land use, night time lights, and settlement covariates to predict a population for these subdivisions, before comparing the actual versus predicted populations for these subdivisions in Egypt. This linear regression model 
 
@@ -27,16 +27,23 @@ For my single large subregion, my linear regression model predicted a poulation 
 
 ![](popsum_biglr1.png)
 
+
+###### Difference between actual vs predicted populations
 ![](lr_big1.png)
 
 
 To validate this, I 
 
 
-##### Five smaller subregions- Ad Daqahliyah, Al Buhayrah, Al Garbiyah, Kafr ash Shaykh, and Al Minufiyah
+#### Five smaller subregions- Ad Daqahliyah, Al Buhayrah, Al Garbiyah, Kafr ash Shaykh, and Al Minufiyah
+
+The figure below showcases the plot of the population sums of the five smaller subregions.
 
 ![](popsum_small1.png)
 
+When looking at the predicted populations for the linear regression model, it's interesting to note a couple of things. First, it should be noted that the model performed moderately well for most of the region, but has localized points in which it grossly underpredicts.
+
+###### Difference between actual vs predicted populations
 ![](lr_pred.png)
 
 
