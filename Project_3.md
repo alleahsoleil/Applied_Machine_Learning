@@ -39,7 +39,7 @@ From observing the plot of the difference between the actual and predicted popul
 
 The figure below showcases the plot of the population sums of the five smaller subregions.
 
-![](popsum_small1.png)
+![](pops1.png)
 
 When looking at the predicted populations for the linear regression model, it's interesting to note a couple of things. First, it should be noted that the model performed moderately well for most of the region, but has localized points in which it grossly underpredicts, surrounded by a small ring in which it overpredicts. Besides the areas of the region that are taken up by lakes and rivers, this is likely due to the presence of cities and travel between the various administrative zones that make up the larger bounds of these cities.
 
