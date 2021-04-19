@@ -60,26 +60,42 @@ It's interesting to note the differences in the variable importance plots for ea
 
 ##### Single large Subregion- Matrouh
 
-##### VIP Plot
+###### VIP Plot
 
 ![](vip_big.png)
 
+###### Population Sum 
 ![](popsum_bigrf.png)
+
+###### Random Forest
 
 ![](rf_big1.png)
 
+Looking at these plots, it appears that the random forest model performed almost identically to the linear regression, with only a tiny section in the population sum plot that has a noticable change. Arguably, the random forest did not perform any better on this subregion than did the linear regression.
 
 ##### Five smaller subregions- Ad Daqahliyah, Al Buhayrah, Al Garbiyah, Kafr ash Shaykh, and Al Minufiyah
 
-
+###### VIP
 ![](vip_mod.png)
 
+
+###### Population Sum
 ![](popsum_small2.png)
+
+###### Random Forest
 
 ![](rf_pred.png)
 
+Upon first glance, it would appear that we have a similar case to the plots of the larger subregion, and have an identical performance for both the linear regression and random forest models; however, upon closer inspection, there are some small, but distinct, changes in coloration and intensity that begs the question of which model performed better. 
+
+This random forest model predicted a population (gridcell count) of 25,386,131, and had an actual population of 25,376,857, with an absolute difference of 17,997,711. From comparing this to the linear regression model, the random forest appears to have performed slightly worse. However, to verify this discovery, I will validate the models using the evaluation metrics of mean squared error and r-squared.
 
 ####MSE,RSQ, MAE
+
+
+
+
+
 
 ## Validate the two models using different methods presented in this class
 ## Write a report assessing the two approaches and which of the two models was more accurate
